@@ -1,0 +1,55 @@
+Question:-
+	Create the Example for Logical Operators. 
+Answer:-
+	Logical Operators (&&, ||, !), it is binary operator which require two operants. We can use it in 
+	Comparison Operators like this.
+		let a = 10;
+		let b = 20;
+		let c = 30;
+		console.log(`a is smallest among these: ${a<b && b<c}`)  //output: true
+
+
+Question:-
+	Difference between “ == “ and “ === “ operators.
+Answer:-
+	'==' is Equality Operator is check only value and '===' is strict Equality operator it check type and 
+	value.
+		let num = 22;
+		let str = "22";
+		console.log(`Both are same: ${num == str}`);;  //output: true
+		console.log(`Both are same: ${num === str}`);;  //output: false
+
+
+Question:-
+	How many operators do we have in JS ?
+Answer:-
+	Following are the operators in Javascript.
+	1: Assignment Operators
+	2: Arithmetic Operators
+	3: Comparison Operators
+	4: Logical Operators
+	5: Bitwise Operators
+	6:Ternary Operators
+
+ 
+Question:-
+	What is use of parseInt in js?
+Answer:-
+	parseInt is a method to convert string value into number.
+	let str = "123";
+	typeof(str);    // output: string
+	let num = parseInt(str);
+	typeof(num);    // output: number
+
+
+Question:-
+	Take input from user and find the odd and even number.
+Answer:-
+	let num = parseInt(prompt('Enter a number'));
+	
+	if(num%2==0){
+		console.log(`${num} is even`)
+	}
+	else{
+		console.log(`${num} is odd`)
+	}
